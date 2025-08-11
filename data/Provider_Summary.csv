@@ -1,0 +1,16 @@
+Provider ID,Total Cost,Approved Units,Member ID,Procedure Code,LTSS_Total_Cost,LTSS_Total_Units,LTSS_Unique_Members,Provider Name,Provider Type,Provider Specialty,Provider Status,LTSS_Cost_Share,Cost_per_Unit
+PRV001,1230.0,6,2,2,0.0,0.0,0.0,Dr. Sarah Johnson MD,Medical Doctor,Family Medicine,Active,0.0,205.0
+PRV002,8910.0,297,3,1,8910.0,297.0,3.0,CareFirst Home Health,Home Health Agency,Home Health,Active,1.0,30.0
+PRV003,1350.0,90,1,1,0.0,0.0,0.0,Metro Skilled Nursing,Skilled Nursing Facility,Long Term Care,Active,0.0,15.0
+PRV004,1045.0,5,1,2,0.0,0.0,0.0,Regional Medical Center,Hospital,Acute Care,Active,0.0,209.0
+PRV005,710.0,6,4,4,0.0,0.0,0.0,Community Mental Health,Community Mental Health Center,Mental Health,Active,0.0,118.33333333333333
+PRV006,555.0,3,1,1,0.0,0.0,0.0,Dr. Maria Lopez NP,Family Nurse Practitioner,Family Medicine,Active,0.0,185.0
+PRV007,1420.0,90,2,2,0.0,0.0,0.0,Sunshine Pharmacy,Outpatient Pharmacy,Pharmacy,Active,0.0,15.777777777777779
+PRV008,2640.0,44,2,2,0.0,0.0,0.0,Elite Physical Therapy,Physical Therapy,Rehabilitation,Active,0.0,60.0
+PRV009,17670.0,589,4,2,17670.0,589.0,4.0,LTSS Care Solutions,Long-Term Services and Support,LTSS,Active,1.0,30.0
+PRV010,695.0,3,1,2,0.0,0.0,0.0,Urgent Care Plus,Urgent Care Center,Urgent Care,Active,0.0,231.66666666666666
+PRV011,1200.0,20,1,1,0.0,0.0,0.0,Dr. James Chen Chiropractor,Doctor of Chiropractic,Chiropractic,Active,0.0,60.0
+PRV012,4320.0,36,1,1,0.0,0.0,0.0,Central Dialysis Center,Dialysis Center,Nephrology,Active,0.0,120.0
+PRV013,5790.0,193,5,3,5790.0,193.0,5.0,Respite Care Services,Respite Care,LTSS,Active,1.0,30.0
+PRV014,1350.0,90,1,1,0.0,0.0,0.0,Heritage County Nursing,County Nursing Facility,Long Term Care,Active,0.0,15.0
+PRV015,555.0,3,1,1,0.0,0.0,0.0,Dr. Patricia Williams PA,Certified Physician's Asst,Family Medicine,Active,0.0,185.0

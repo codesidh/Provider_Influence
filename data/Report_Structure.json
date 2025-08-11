@@ -1,0 +1,68 @@
+{
+  "Report_Name": "Provider Influence Power BI Dashboard",
+  "Pages": [
+    {
+      "Page_Name": "Executive Summary",
+      "Visualizations": [
+        "KPI Cards: Total Members, Total Cost, LTSS Penetration Rate, YOY Growth",
+        "Trend Charts: Member growth, Cost trends, LTSS vs Non-LTSS trends",
+        "Geographic Map: Provider distribution and performance by region"
+      ]
+    },
+    {
+      "Page_Name": "Provider Performance",
+      "Visualizations": [
+        "Matrix Table: Top 20 providers by cost, member count, efficiency",
+        "Scatter Plot: Cost vs Quality metrics",
+        "Bar Charts: Provider specialty comparison, Entity type analysis",
+        "Slicer Panel: Provider filters (Type, Specialty, Status, Region)"
+      ]
+    },
+    {
+      "Page_Name": "LTSS Deep Dive",
+      "Visualizations": [
+        "Donut Chart: LTSS vs Non-LTSS cost distribution",
+        "Stacked Bar Chart: LTSS cost by category",
+        "Line Chart: LTSS penetration trends over time",
+        "Matrix Table: LTSS categories with procedure codes and descriptions",
+        "Waterfall Chart: LTSS cost drivers by category",
+        "Heat Map: LTSS utilization by provider and LTSS category"
+      ]
+    },
+    {
+      "Page_Name": "Member Analytics",
+      "Visualizations": [
+        "Funnel Chart: Member journey through care levels",
+        "Cohort Analysis: Member retention patterns",
+        "Box Plot: Member cost distribution by provider",
+        "Timeline: Member enrollment and disenrollment patterns"
+      ]
+    },
+    {
+      "Page_Name": "Financial Analytics",
+      "Visualizations": [
+        "PMPM Trends: Overall and by provider segment",
+        "Cost Concentration: Pareto analysis of provider costs",
+        "Budget vs Actual: Variance analysis",
+        "Forecasting: Predictive cost modeling"
+      ]
+    }
+  ],
+  "Data_Model": {
+    "Tables": [
+      "provider_data",
+      "authorization_data",
+      "ltss_procedure_mapping",
+      "Calendar_Table",
+      "Provider_Summary",
+      "LTSS_Summary",
+      "Member_Analytics"
+    ],
+    "Relationships": [
+      "provider_data[Provider ID] (1) \u2190\u2192 (*) authorization_data[Provider ID]",
+      "Calendar_Table[Date] (1) \u2190\u2192 (*) authorization_data[Auth Month Date]",
+      "Calendar_Table[Date] (1) \u2190\u2192 (*) provider_data[Auth Year Month Date]",
+      "ltss_procedure_mapping[Procedure Code] (1) \u2190\u2192 (*) authorization_data[Procedure Code]"
+    ]
+  }
+}

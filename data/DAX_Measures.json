@@ -1,0 +1,24 @@
+{
+  "Core_Metrics": {
+    "Total_Members": "DISTINCTCOUNT(authorization_data[Member ID])",
+    "Total_Cost": "SUM(authorization_data[Total Cost])",
+    "Total_Units": "SUM(authorization_data[Approved Units])",
+    "Total_Authorizations": "COUNTROWS(authorization_data)"
+  },
+  "LTSS_Metrics": {
+    "LTSS_Total_Cost": "CALCULATE(SUM(authorization_data[Total Cost]), RELATED(ltss_procedure_mapping[IS_LTSS]) = \"Yes\")",
+    "LTSS_Penetration_Rate": "DIVIDE(CALCULATE(DISTINCTCOUNT(authorization_data[Member ID]), RELATED(ltss_procedure_mapping[IS_LTSS]) = \"Yes\"), [Total_Members], 0)",
+    "LTSS_Cost_Share": "DIVIDE([LTSS_Total_Cost], [Total_Cost], 0)",
+    "LTSS_Authorization_Count": "CALCULATE(COUNTROWS(authorization_data), RELATED(ltss_procedure_mapping[IS_LTSS]) = \"Yes\")"
+  },
+  "Provider_Metrics": {
+    "Provider_Market_Share": "DIVIDE([Total_Cost], CALCULATE([Total_Cost], REMOVEFILTERS(provider_data)), 0)",
+    "Provider_LTSS_Concentration": "DIVIDE([LTSS_Total_Cost], [Total_Cost], 0)",
+    "Provider_Efficiency_Score": "DIVIDE([Total_Cost], SUM(authorization_data[Approved Units]), 0)"
+  },
+  "Financial_Metrics": {
+    "PMPM": "DIVIDE([Total_Cost], DISTINCTCOUNT(authorization_data[Member ID]) * DISTINCTCOUNT(authorization_data[Auth Month]), 0)",
+    "LTSS_PMPM": "DIVIDE([LTSS_Total_Cost], DISTINCTCOUNT(authorization_data[Member ID]) * DISTINCTCOUNT(authorization_data[Auth Month]), 0)",
+    "Cost_per_Unit": "DIVIDE([Total_Cost], [Total_Units], 0)"
+  }
+}

@@ -1,0 +1,52 @@
+Procedure Code,Procedure Description,IS_LTSS,LTSS_Category
+T1019,Personal Care Services - Per 15 minutes,Yes,Personal Care
+T1020,Personal Care Services - Per day,Yes,Personal Care
+T1021,Personal Care Services - Per hour,Yes,Personal Care
+S5125,Attendant Care Services - Per hour,Yes,Attendant Care
+S5126,Attendant Care Services - Per day,Yes,Attendant Care
+T2025,Waiver Services - Per hour,Yes,Waiver Services
+T2026,Waiver Services - Per day,Yes,Waiver Services
+T2027,Waiver Services - Per month,Yes,Waiver Services
+S5150,Unskilled Respite Care - Per 15 minutes,Yes,Respite Care
+S5151,Skilled Respite Care - Per 15 minutes,Yes,Respite Care
+S5152,Respite Care - Per hour,Yes,Respite Care
+S5160,Emergency Response System - Per month,Yes,Emergency Response
+S5161,Emergency Response System - Installation,Yes,Emergency Response
+T1000,Private Duty Nursing - Per hour,Yes,Private Duty Nursing
+T1001,Nursing Assessment - Per visit,Yes,Private Duty Nursing
+T1002,Registered Nurse Services - Per hour,Yes,Private Duty Nursing
+T1003,Licensed Practical Nurse Services - Per hour,Yes,Private Duty Nursing
+S5130,Homemaker Services - Per hour,Yes,Homemaker Services
+S5131,Companion Services - Per hour,Yes,Homemaker Services
+T1030,Nursing Care - Per diem,Yes,Nursing Care
+T1031,Nursing Care - Per hour,Yes,Nursing Care
+S5170,Home Modifications - Per service,Yes,Home Modifications
+S5171,Home Delivered Meals - Per meal,Yes,Home Delivered Meals
+T2040,Linear Accelerator Based Stereotactic Radiosurgery,No,Medical Services
+T2041,Magnetic Resonance Imaging,No,Medical Services
+99401,Preventive Medicine Counseling - Individual 15 min,No,Preventive Care
+99402,Preventive Medicine Counseling - Individual 30 min,No,Preventive Care
+99403,Preventive Medicine Counseling - Individual 45 min,No,Preventive Care
+99411,Preventive Medicine Counseling - Group 30 min,No,Preventive Care
+99412,Preventive Medicine Counseling - Group 60 min,No,Preventive Care
+99213,Office Visit - Established Patient Level 3,No,Medical Services
+99214,Office Visit - Established Patient Level 4,No,Medical Services
+99215,Office Visit - Established Patient Level 5,No,Medical Services
+99232,Hospital Subsequent Care - Level 2,No,Medical Services
+99233,Hospital Subsequent Care - Level 3,No,Medical Services
+99284,Emergency Department Visit - Level 4,No,Medical Services
+99285,Emergency Department Visit - Level 5,No,Medical Services
+90834,Psychotherapy - 45 minutes,No,Mental Health
+90837,Psychotherapy - 60 minutes,No,Mental Health
+90847,Family Psychotherapy with Patient,No,Mental Health
+97110,Therapeutic Exercise,No,Physical Therapy
+97112,Neuromuscular Reeducation,No,Physical Therapy
+97140,Manual Therapy,No,Physical Therapy
+98940,Chiropractic Manipulative Treatment,No,Chiropractic
+98941,Chiropractic Manipulative Treatment - 3-4 regions,No,Chiropractic
+90966,End Stage Renal Disease Services - Per month,No,Dialysis
+90967,End Stage Renal Disease Services - Per day,No,Dialysis
+J7030,Infusion Normal Saline - Per 1000cc,No,Pharmacy
+J1100,Injection Dexamethasone - Per mg,No,Pharmacy
+G0463,Hospital Outpatient Clinic Visit,No,Medical Services
+G0464,Comprehensive Assessment,No,Medical Services

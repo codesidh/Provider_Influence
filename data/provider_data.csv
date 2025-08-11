@@ -1,0 +1,46 @@
+Provider ID,Provider Name,Tax ID,Provider Organisation Name,NPI,Taxonomy,Provider Entity,Provider Type,Organisation Type,Provider Specialty,Provider Status,Auth Year Month,Member Count,Provider Relationship Specialist Name
+PRV001,Dr. Sarah Johnson MD,12-3456789,Johnson Family Medicine,1234567890,207Q00000X,Individual,Medical Doctor,Solo Practice,Family Medicine,Active,2024-01,45,Jennifer Smith
+PRV001,Dr. Sarah Johnson MD,12-3456789,Johnson Family Medicine,1234567890,207Q00000X,Individual,Medical Doctor,Solo Practice,Family Medicine,Active,2024-02,48,Jennifer Smith
+PRV001,Dr. Sarah Johnson MD,12-3456789,Johnson Family Medicine,1234567890,207Q00000X,Individual,Medical Doctor,Solo Practice,Family Medicine,Active,2024-03,52,Jennifer Smith
+PRV002,CareFirst Home Health,98-7654321,CareFirst Health Services,2345678901,251E00000X,Organization,Home Health Agency,Corporation,Home Health,Active,2024-01,123,Michael Davis
+PRV002,CareFirst Home Health,98-7654321,CareFirst Health Services,2345678901,251E00000X,Organization,Home Health Agency,Corporation,Home Health,Active,2024-02,135,Michael Davis
+PRV002,CareFirst Home Health,98-7654321,CareFirst Health Services,2345678901,251E00000X,Organization,Home Health Agency,Corporation,Home Health,Active,2024-03,142,Michael Davis
+PRV003,Metro Skilled Nursing,11-2233445,Metro Healthcare Corp,3456789012,313M00000X,Organization,Skilled Nursing Facility,Corporation,Long Term Care,Active,2024-01,89,Lisa Rodriguez
+PRV003,Metro Skilled Nursing,11-2233445,Metro Healthcare Corp,3456789012,313M00000X,Organization,Skilled Nursing Facility,Corporation,Long Term Care,Active,2024-02,95,Lisa Rodriguez
+PRV003,Metro Skilled Nursing,11-2233445,Metro Healthcare Corp,3456789012,313M00000X,Organization,Skilled Nursing Facility,Corporation,Long Term Care,Active,2024-03,98,Lisa Rodriguez
+PRV004,Regional Medical Center,44-5566778,Regional Health System,4567890123,282N00000X,Organization,Hospital,Non-Profit,Acute Care,Active,2024-01,234,Robert Wilson
+PRV004,Regional Medical Center,44-5566778,Regional Health System,4567890123,282N00000X,Organization,Hospital,Non-Profit,Acute Care,Active,2024-02,245,Robert Wilson
+PRV004,Regional Medical Center,44-5566778,Regional Health System,4567890123,282N00000X,Organization,Hospital,Non-Profit,Acute Care,Active,2024-03,251,Robert Wilson
+PRV005,Community Mental Health,33-7788990,Community Behavioral Health,5678901234,261QM0855X,Organization,Community Mental Health Center,Non-Profit,Mental Health,Active,2024-01,67,Sarah Thompson
+PRV005,Community Mental Health,33-7788990,Community Behavioral Health,5678901234,261QM0855X,Organization,Community Mental Health Center,Non-Profit,Mental Health,Active,2024-02,73,Sarah Thompson
+PRV005,Community Mental Health,33-7788990,Community Behavioral Health,5678901234,261QM0855X,Organization,Community Mental Health Center,Non-Profit,Mental Health,Active,2024-03,78,Sarah Thompson
+PRV006,Dr. Maria Lopez NP,55-9900112,Advanced Care Associates,6789012345,363L00000X,Individual,Family Nurse Practitioner,Group Practice,Family Medicine,Active,2024-01,38,Jennifer Smith
+PRV006,Dr. Maria Lopez NP,55-9900112,Advanced Care Associates,6789012345,363L00000X,Individual,Family Nurse Practitioner,Group Practice,Family Medicine,Active,2024-02,41,Jennifer Smith
+PRV006,Dr. Maria Lopez NP,55-9900112,Advanced Care Associates,6789012345,363L00000X,Individual,Family Nurse Practitioner,Group Practice,Family Medicine,Active,2024-03,45,Jennifer Smith
+PRV007,Sunshine Pharmacy,66-1122334,Sunshine Healthcare LLC,7890123456,3336C0003X,Organization,Outpatient Pharmacy,Corporation,Pharmacy,Active,2024-01,156,Michael Davis
+PRV007,Sunshine Pharmacy,66-1122334,Sunshine Healthcare LLC,7890123456,3336C0003X,Organization,Outpatient Pharmacy,Corporation,Pharmacy,Active,2024-02,163,Michael Davis
+PRV007,Sunshine Pharmacy,66-1122334,Sunshine Healthcare LLC,7890123456,3336C0003X,Organization,Outpatient Pharmacy,Corporation,Pharmacy,Active,2024-03,171,Michael Davis
+PRV008,Elite Physical Therapy,77-3344556,Elite Rehabilitation Services,8901234567,225100000X,Organization,Physical Therapy,Corporation,Rehabilitation,Active,2024-01,54,Lisa Rodriguez
+PRV008,Elite Physical Therapy,77-3344556,Elite Rehabilitation Services,8901234567,225100000X,Organization,Physical Therapy,Corporation,Rehabilitation,Active,2024-02,59,Lisa Rodriguez
+PRV008,Elite Physical Therapy,77-3344556,Elite Rehabilitation Services,8901234567,225100000X,Organization,Physical Therapy,Corporation,Rehabilitation,Active,2024-03,62,Lisa Rodriguez
+PRV009,LTSS Care Solutions,88-5566778,LTSS Care Network,9012345678,251S00000X,Organization,Long-Term Services and Support,Corporation,LTSS,Active,2024-01,187,Robert Wilson
+PRV009,LTSS Care Solutions,88-5566778,LTSS Care Network,9012345678,251S00000X,Organization,Long-Term Services and Support,Corporation,LTSS,Active,2024-02,195,Robert Wilson
+PRV009,LTSS Care Solutions,88-5566778,LTSS Care Network,9012345678,251S00000X,Organization,Long-Term Services and Support,Corporation,LTSS,Active,2024-03,203,Robert Wilson
+PRV010,Urgent Care Plus,99-7788990,Urgent Care Associates,0123456789,261QU0200X,Organization,Urgent Care Center,Corporation,Urgent Care,Active,2024-01,78,Sarah Thompson
+PRV010,Urgent Care Plus,99-7788990,Urgent Care Associates,0123456789,261QU0200X,Organization,Urgent Care Center,Corporation,Urgent Care,Active,2024-02,82,Sarah Thompson
+PRV010,Urgent Care Plus,99-7788990,Urgent Care Associates,0123456789,261QU0200X,Organization,Urgent Care Center,Corporation,Urgent Care,Active,2024-03,89,Sarah Thompson
+PRV011,Dr. James Chen Chiropractor,12-9988776,Chen Chiropractic Clinic,1357924680,111N00000X,Individual,Doctor of Chiropractic,Solo Practice,Chiropractic,Active,2024-01,29,Jennifer Smith
+PRV011,Dr. James Chen Chiropractor,12-9988776,Chen Chiropractic Clinic,1357924680,111N00000X,Individual,Doctor of Chiropractic,Solo Practice,Chiropractic,Active,2024-02,32,Jennifer Smith
+PRV011,Dr. James Chen Chiropractor,12-9988776,Chen Chiropractic Clinic,1357924680,111N00000X,Individual,Doctor of Chiropractic,Solo Practice,Chiropractic,Active,2024-03,35,Jennifer Smith
+PRV012,Central Dialysis Center,23-4455667,Central Renal Care,2468135791,261QD0000X,Organization,Dialysis Center,Corporation,Nephrology,Active,2024-01,43,Michael Davis
+PRV012,Central Dialysis Center,23-4455667,Central Renal Care,2468135791,261QD0000X,Organization,Dialysis Center,Corporation,Nephrology,Active,2024-02,45,Michael Davis
+PRV012,Central Dialysis Center,23-4455667,Central Renal Care,2468135791,261QD0000X,Organization,Dialysis Center,Corporation,Nephrology,Active,2024-03,47,Michael Davis
+PRV013,Respite Care Services,34-5566778,Family Support Network,3691472580,251F00000X,Organization,Respite Care,Non-Profit,LTSS,Active,2024-01,34,Lisa Rodriguez
+PRV013,Respite Care Services,34-5566778,Family Support Network,3691472580,251F00000X,Organization,Respite Care,Non-Profit,LTSS,Active,2024-02,38,Lisa Rodriguez
+PRV013,Respite Care Services,34-5566778,Family Support Network,3691472580,251F00000X,Organization,Respite Care,Non-Profit,LTSS,Active,2024-03,41,Lisa Rodriguez
+PRV014,Heritage County Nursing,45-6677889,County Health Department,4815926370,313M00000X,Government,County Nursing Facility,Government,Long Term Care,Active,2024-01,112,Robert Wilson
+PRV014,Heritage County Nursing,45-6677889,County Health Department,4815926370,313M00000X,Government,County Nursing Facility,Government,Long Term Care,Active,2024-02,118,Robert Wilson
+PRV014,Heritage County Nursing,45-6677889,County Health Department,4815926370,313M00000X,Government,County Nursing Facility,Government,Long Term Care,Active,2024-03,125,Robert Wilson
+PRV015,Dr. Patricia Williams PA,56-7788990,Williams Medical Group,5937148260,363A00000X,Individual,Certified Physician's Asst,Group Practice,Family Medicine,Active,2024-01,33,Sarah Thompson
+PRV015,Dr. Patricia Williams PA,56-7788990,Williams Medical Group,5937148260,363A00000X,Individual,Certified Physician's Asst,Group Practice,Family Medicine,Active,2024-02,36,Sarah Thompson
+PRV015,Dr. Patricia Williams PA,56-7788990,Williams Medical Group,5937148260,363A00000X,Individual,Certified Physician's Asst,Group Practice,Family Medicine,Active,2024-03,39,Sarah Thompson
